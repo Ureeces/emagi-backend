@@ -1,4 +1,4 @@
-// const emagify = require('./emagify.js');
+const emagify = require('./emagify.js');
 const symbols = require('./emagi-symbols.js');
 const words = require('./emagi-words.js');
 

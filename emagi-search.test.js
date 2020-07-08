@@ -1,4 +1,4 @@
-// const emagiSearch = require('./emagi-search.js');
+const emagiSearch = require('./emagi-search.js');
 const words = require('./emagi-words.js');
 const symbols = require('./emagi-symbols.js');
 
