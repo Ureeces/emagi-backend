@@ -1,10 +1,4 @@
 const emagify = require('./emagify.js');
-<<<<<<< HEAD
-const symbols = require('./emagi-symbols.js');
-const words = require('./emagi-words.js');
-=======
->>>>>>> upstream/master
-
 
 describe('emagify', () => {
   it(`transforms emoji words to symbols`, () => {

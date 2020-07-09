@@ -1,8 +1,4 @@
 const randomElement = require('./emagi-random.js');
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/master
 
 describe('randomElement', () => {
   it(`gives back a random element from an array`, () => {

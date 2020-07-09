@@ -1,10 +1,4 @@
 const emagiSearch = require('./emagi-search.js');
-<<<<<<< HEAD
-const words = require('./emagi-words.js');
-const symbols = require('./emagi-symbols.js');
-=======
->>>>>>> upstream/master
-
 
 describe('emagiSearch', () => {
   it(`given a full word, it returns the matching emoji in an array`, () => {
