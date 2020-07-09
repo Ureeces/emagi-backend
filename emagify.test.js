@@ -1,44 +1,43 @@
 const emagify = require('./emagify.js');
+<<<<<<< HEAD
 const symbols = require('./emagi-symbols.js');
 const words = require('./emagi-words.js');
+=======
+>>>>>>> upstream/master
 
 
 describe('emagify', () => {
   it(`transforms emoji words to symbols`, () => {
     const words1 = [
-      words[0],
-      words[1],
-      words[2],
-      words[3],
-      words[4],
-      words[5],
-      words[6],
-      words[7],
-    ]
-
-    const words2 = [
-      words[8],
-      words[9],
-      words[10],
-      words[11],
+      'smile',
+      'cool',
+      'laugh',
+      'angry',
+      'cry',
+      'wink',
     ]
 
     const symbols1 = [
-      symbols[0],
-      symbols[1],
-      symbols[2],
-      symbols[3],
-      symbols[4],
-      symbols[5],
-      symbols[6],
-      symbols[7],
+      '😁',
+      '😎',
+      '😆',
+      '😠',
+      '😭',
+      '😜',
+    ]
+
+    const words2 = [
+      'poop',
+      'heartbreak',
+      'pizza',
+      'tornado',
     ]
 
     const symbols2 = [
-      symbols[8],
-      symbols[9],
-      symbols[10],
-      symbols[11],
+      '💩',
+      '💔',
+      '🍕',
+      '🌪',
     ]
 
     expect(emagify(words1)).toEqual(symbols1);
@@ -49,7 +48,7 @@ describe('emagify', () => {
     const words1 = [
       'this',
       'is',
-      words[0],
+      'smile',
     ]
 
     const words2 = [
@@ -58,13 +57,13 @@ describe('emagify', () => {
       'be',
       'confused',
       'with',
-      words[1],
+      'laugh',
     ]
 
     const symbols1 = [
       'this',
       'is',
-      symbols[0],
+      '😁',
     ]
 
     const symbols2 = [
@@ -73,7 +72,7 @@ describe('emagify', () => {
       'be',
       'confused',
       'with',
-      symbols[1],
+      '😆',
     ]
 
     expect(emagify(words1)).toEqual(symbols1);
